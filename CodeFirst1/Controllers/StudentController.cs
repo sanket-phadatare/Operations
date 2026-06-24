@@ -97,7 +97,7 @@ namespace CodeFirst1.Controllers
             {
                  studentdb.Students.Update(std);
                 await studentdb.SaveChangesAsync();
-                TempData["update_data"] = "Data updated Successfully";
+                TempData["update_data"] = "Data updated Successfully!!!";
                 return RedirectToAction("Index", "Student");
             }
             return View(std);
@@ -128,6 +128,7 @@ namespace CodeFirst1.Controllers
             return NotFound();
 
         }
+
 
     }
 }
