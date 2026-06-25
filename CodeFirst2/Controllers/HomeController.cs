@@ -112,25 +112,6 @@ namespace CodeFirst2.Controllers
             return RedirectToAction("Index", "Home");
         }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
         public IActionResult Privacy()
         {
             return View();
